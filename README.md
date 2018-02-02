@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "wei/composer-vendor-directory": "1.0.x-dev"
+    "wei/composer-vendor-directory": "1.0.1"
   }
 }
 ```
