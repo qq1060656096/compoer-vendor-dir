@@ -1,0 +1,28 @@
+{
+  "name": "wei/composer-vendor-directory",
+  "type": "library",
+  "description": "composer-vendor-directory library for PHP.\ncomposer-vendor-directory  package is used to get the composer vendor directory.\ncomposer-vendor-directory包用于获取作composer vendor目录路径.",
+  "keywords": [
+    "php composer vendor directory"
+  ],
+  "license": "MIT",
+  "homepage": "http://bao-loan.com",
+  "support": {
+    "issues": "https://github.com/qq1060656096/composer-vendor-directory/issues",
+    "source": "https://github.com/qq1060656096/composer-vendor-directory"
+  },
+  "authors": [
+    {
+      "name": "Zhao Wei Jie",
+      "email": "1060656096@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wei\\ComposerVendorDirectory\\": "src/"
+    }
+  }
+}
