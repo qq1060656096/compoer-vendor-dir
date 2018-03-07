@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "wei/composer-vendor-directory": "1.0.1"
+    "zwei/composer-vendor-directory": "1.0.1"
   }
 }
 ```
@@ -30,10 +30,10 @@
 ```php
 <?php
 // 获取composer vendor目录
-$dir = \Wei\ComposerVendorDirectory\ComposerVendor::getDir();
+$dir = \Zwei\ComposerVendorDirectory\ComposerVendor::getDir();
 var_dump($dir);
 // 获取composer vendor 父目录
-$dir = \Wei\ComposerVendorDirectory\ComposerVendor::getParentDir();
+$dir = \Zwei\ComposerVendorDirectory\ComposerVendor::getParentDir();
 var_dump($dir);
 ```
 
