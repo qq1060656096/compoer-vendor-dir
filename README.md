@@ -10,12 +10,6 @@
 
 ```php
 {
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/qq1060656096/composer-vendor-directory.git"
-    }
-  ],
   "require": {
     "zwei/composer-vendor-directory": "1.0.1"
   }
@@ -29,6 +23,7 @@
 
 ```php
 <?php
+include 'vendor/autoload.php';
 // 获取composer vendor目录
 $dir = \Zwei\ComposerVendorDirectory\ComposerVendor::getDir();
 var_dump($dir);
