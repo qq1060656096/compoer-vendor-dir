@@ -1,11 +1,11 @@
 <?php
-namespace Wei\ComposerVendorDirectory;
+namespace Zwei\ComposerVendorDirectory;
 
 /**
  * 获取composer vendor 目录
  *
  * Class ComposerVendor
- * @package Wei\ComposerVendorDirectory
+ * @package Zwei\ComposerVendorDirectory
  */
 class ComposerVendor
 {
