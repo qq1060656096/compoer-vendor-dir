@@ -1,5 +1,5 @@
 {
-  "name": "wei/composer-vendor-directory",
+  "name": "zwei/composer-vendor-directory",
   "type": "library",
   "description": "composer-vendor-directory library for PHP.\ncomposer-vendor-directory  package is used to get the composer vendor directory.\ncomposer-vendor-directory包用于获取作composer vendor目录路径.",
   "keywords": [
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Wei\\ComposerVendorDirectory\\": "src/"
+      "Zwei\\ComposerVendorDirectory\\": "src/"
     }
   }
 }
