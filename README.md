@@ -11,7 +11,7 @@
 ```php
 {
   "require": {
-    "zwei/composer-vendor-directory": "1.0.1"
+    "zwei/composer-vendor-directory": "1.0.0"
   }
 }
 ```
